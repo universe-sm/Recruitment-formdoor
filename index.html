@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" class="css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container2">
+            <div class="box1">
+
+                <div class="nav1"></div>
+                <img src="Image/image4.png" class=" star star1" />
+                <div class="tex">WELC</div>
+                <img src="Image/image4.png" class=" star star2" />
+                <img src="Image/image4.png" class=" star star3" />
+                <img src="Image/image4.png" class=" star star4" />
+                <img src="Image/image4.png" class=" star star5" />
+                <div class="text2">HEY! Want to be a part o
+                </div>
+                <button id="b1">Register Here!</button>
+            </div>
+
+            <div class="box2">
+                <div class="nav2"></div>
+                <img src="Image/image4.png" class=" star star6" />
+                <img src="Image/image4.png" class=" star star7" />
+                <img src="Image/image4.png" class=" star star8" />
+                <img src="Image/image4.png" class=" star star9" />
+                <div class="text3">OME</div>
+                <div class="text4">f MLSC?
+                </div>
+                <img src="https://media.tenor.com/FPxpe7shlwQAAAAi/talking-super-mario-animated-stickers-super-mario.gif"
+                    class="gif" />
+            </div>
+        </div>
+        <div class="container3">
+            <div class="main">
+                <div class="form">
+                    <div class="element">
+                        <div class="ele">RECRUITMENT FORM</div>
+                        <div class="element1">
+                            <input type="text" placeholder="Enter your name" required /><br><br>
+                            <input type="text" placeholder="Enter your E -MAIL" required /><br><br>
+                            <input type="text" placeholder="Phone Number" required /><br><br>
+                            <select value="Year Of Study" required>
+                                <option value="" selected>Year of Study</option>
+                                <option>1</option>
+                                <option>2</option>
+                            </select>
+                            <br><br>
+                            <select value="Year Of Study" required>
+                                <option value="" selected>Domain-Preference 1</option>
+                                <option>Web Development</option>
+
+                                <option>App Development</option>
+
+                                <option>Game Development</option>
+
+                                <option>Machine Learning / AI</option>
+
+                                <option>Data Science</option>
+
+                                <option>Cybersecurity</option>
+
+                                <option>Cloud Computing</option>
+
+                                <option>Blockchain</option>
+                            </select>
+                            <br><br>
+                            <select value="Year Of Study" required>
+                                <option value="" selected>Domain-Preference 2</option>
+                                <option>Web Development</option>
+
+                                <option>App Development</option>
+
+                                <option>Game Development</option>
+
+                                <option>Machine Learning / AI</option>
+
+                                <option>Data Science</option>
+
+                                <option>Cybersecurity</option>
+
+                                <option>Cloud Computing</option>
+
+                                <option>Blockchain</option>
+                            </select><br></br>
+                            <select value="Year Of Study" required>
+                                <option value="" selected>Domain-Preference 3</option>
+                                <option>Web Development</option>
+
+                                <option>App Development</option>
+
+                                <option>Game Development</option>
+
+                                <option>Machine Learning / AI</option>
+
+                                <option>Data Science</option>
+
+                                <option>Cybersecurity</option>
+
+                                <option>Cloud Computing</option>
+
+                                <option>Blockchain</option>
+                            </select><br><br>
+                            <input type="text" placeholder="Projects" /><br><br>
+                            <input type="text" placeholder="Why do you want to join MLSC?" required />
+                        </div>
+                        <div class="but"> <button type="submit">Submit</button></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        document.getElementById("b1").addEventListener("click", function () {
+            document.querySelector(".box1").classList.add("left-door");
+            document.querySelector(".box2").classList.add("right-door");
+
+            document.querySelector(".tex").style.display = "none";
+            document.querySelector(".text2").style.display = "none";
+            document.querySelector(".text3").style.display = "none";
+            document.querySelector(".text4").style.display = "none";
+            document.getElementById("b1").style.display = "none";
+            document.querySelector(".star1").style.display = "none";
+            document.querySelector(".star2").style.display = "none";
+            document.querySelector(".star3").style.display = "none";
+            document.querySelector(".star4").style.display = "none";
+            document.querySelector(".star5").style.display = "none";
+            document.querySelector(".star6").style.display = "none";
+            document.querySelector(".star7").style.display = "none";
+            document.querySelector(".star8").style.display = "none";
+            document.querySelector(".star9").style.display = "none";
+        }
+        )
+
+        document.querySelector(".box1").addEventListener("animationend", function () {
+            document.querySelector(".container2").style.display = "none";
+            document.querySelector(".container3").style.display = "block";
+             document.querySelector(".form").classList.add("retro-form-animation");
+
+           
+
+        })
+
+    </script>
+</body>
+
+</html>
