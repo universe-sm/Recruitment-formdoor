@@ -53,60 +53,33 @@
                                 <option>2</option>
                             </select>
                             <br><br>
-                            <select value="Year Of Study" required>
-                                <option value="" selected>Domain-Preference 1</option>
-                                <option>Web Development</option>
+                            <select required>
+                                <option value="" selected>Dept-Preference1</option>
+                                 <option>Tech</option>
 
-                                <option>App Development</option>
+                                <option>Design</option>
 
-                                <option>Game Development</option>
+                                <option>Management</option>
 
-                                <option>Machine Learning / AI</option>
-
-                                <option>Data Science</option>
-
-                                <option>Cybersecurity</option>
-
-                                <option>Cloud Computing</option>
-
-                                <option>Blockchain</option>
                             </select>
                             <br><br>
                             <select value="Year Of Study" required>
-                                <option value="" selected>Domain-Preference 2</option>
-                                <option>Web Development</option>
+                                <option value="" selected>Dept-Preference 2</option>
+                                <option>Tech</option>
 
-                                <option>App Development</option>
+                                <option>Design</option>
 
-                                <option>Game Development</option>
+                                <option>Management</option>
 
-                                <option>Machine Learning / AI</option>
-
-                                <option>Data Science</option>
-
-                                <option>Cybersecurity</option>
-
-                                <option>Cloud Computing</option>
-
-                                <option>Blockchain</option>
                             </select><br></br>
                             <select value="Year Of Study" required>
-                                <option value="" selected>Domain-Preference 3</option>
-                                <option>Web Development</option>
+                                <option value="" selected>Dept-Preference 3</option>
+                                <option>Tech</option>
 
-                                <option>App Development</option>
+                                <option>Design</option>
 
-                                <option>Game Development</option>
+                                <option>Management</option>
 
-                                <option>Machine Learning / AI</option>
-
-                                <option>Data Science</option>
-
-                                <option>Cybersecurity</option>
-
-                                <option>Cloud Computing</option>
-
-                                <option>Blockchain</option>
                             </select><br><br>
                             <input type="text" placeholder="Projects" /><br><br>
                             <input type="text" placeholder="Why do you want to join MLSC?" required />
@@ -119,39 +92,8 @@
         </div>
 
     </div>
+<script src="script.js"></script>
 
-    <script>
-        document.getElementById("b1").addEventListener("click", function () {
-            document.querySelector(".box1").classList.add("left-door");
-            document.querySelector(".box2").classList.add("right-door");
-
-            document.querySelector(".tex").style.display = "none";
-            document.querySelector(".text2").style.display = "none";
-            document.querySelector(".text3").style.display = "none";
-            document.querySelector(".text4").style.display = "none";
-            document.getElementById("b1").style.display = "none";
-            document.querySelector(".star1").style.display = "none";
-            document.querySelector(".star2").style.display = "none";
-            document.querySelector(".star3").style.display = "none";
-            document.querySelector(".star4").style.display = "none";
-            document.querySelector(".star5").style.display = "none";
-            document.querySelector(".star6").style.display = "none";
-            document.querySelector(".star7").style.display = "none";
-            document.querySelector(".star8").style.display = "none";
-            document.querySelector(".star9").style.display = "none";
-        }
-        )
-
-        document.querySelector(".box1").addEventListener("animationend", function () {
-            document.querySelector(".container2").style.display = "none";
-            document.querySelector(".container3").style.display = "block";
-             document.querySelector(".form").classList.add("retro-form-animation");
-
-           
-
-        })
-
-    </script>
 </body>
 
 </html>
